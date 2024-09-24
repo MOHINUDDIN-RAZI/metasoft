@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 import logoText from "../assets/logotext.png";
 import banner from "../assets/banner.png";
+
 export default function Logo() {
   return (
     <div>
@@ -13,7 +14,6 @@ export default function Logo() {
           <img src={logoText} alt="" className="logoImage" />
         </div>
       </div>
-
       <img
         src={banner}
         alt=""
